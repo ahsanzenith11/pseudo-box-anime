@@ -6,69 +6,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    h1{
-      color: blue;
+    .swimming{
+      position: relative;
     }
-    h1:hover
+    #water
     {
-      color: skyblue;
-     
+      position:relative;
+      left:0px;
+      top: -75px;    
     }
-    .middle-person
+    #boy
+    {position:relative;
+      top: 70px;
+      z-index: 2;
+    }
+    #ring
     {
-      color: blue;
-      font-weight: bold;
+      position:relative;
+      z-index: 1;
+      left: -5px;
     }
-    a:visited
+    .dummy
     {
-      color: red;
-    }
-
-    li:first-child{
-      color: chocolate;
-    }
-    li:last-child
-    {
-      background-color: red;
-    }
-    li:nth-child(2n)
-    {
-      color: green;
-    }
-    h3::before
-    {
-      content: 'Hello ';
+      background-color: pink;
+      width: 200px;
+      height: 200px;
     }
   </style>
 </head>
 <body>
-  <h1>This is normal
+  <section class="swimming">
+ <div id="boy"><img  src="images/boy.svg" alt=""></div>
+ <div id="ring"><img  src="images/ring.svg" alt=""></div>
+ <div id="water"><img  src="images/water.svg" alt=""></div>
 
-  </h1>
-  <input type="text"> 
-  <input class="middle-person" type="text"> 
-  <input type="text"> 
-  <br>
-  <h3>middle size -1</h3>
-  <h3>middle size -2</h3>
-  <h3>middle size -3</h3>
-  <h3>middle size -4</h3>
-  <h3>middle size -5</h3>
-  <h3>middle size -6</h3>
-
-
-
-  <a href="https://www.google.com/">Google e jao</a>
-  <a href="https://www.google.com.bd/"> proggram a jao</a>
-  <ul>
-    <li>alia</li>
-    <li>dalia</li>
-    <li>kalia</li>
-    <li>calaia</li>
-    <li>malaia</li>
-    <li>kalaiya</li>
-  </ul>
-  
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+ <div class="dummy"></div>
+</section>
 
 </body>
 </html>
